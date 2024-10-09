@@ -1,0 +1,87 @@
+############### data preprocessing ###############
+
+# audio settings
+audio_fs: 16000
+mel_nfft: 1024
+n_mels: 128
+mel_hop_length: 160
+mel_fmin: 0
+mel_fmax: 8000
+
+# LRW dataset settings
+lrw_dir: '/path/to/LRW/lipread_mp4/'
+label_sorted: '/path/to/LRW/label_sorted.txt'
+pickle_lrw_dir_name: 'pickle_lrw'
+pickle_lrw_dir: '/path/to/pickle_lrw/'
+
+# collected dataset settings
+collected_dataset_dir: '/path/to/collected_dataset/'
+pickle_collected_dataset_dir: '/path/to/pickle_collected_dataset/'
+clean_audio_dir: '/path/to/clean_audio/'
+
+collected_fs: 48000
+ultrasound_fs: 48000
+
+user_list:
+  - 'user1'
+  - 'user2'
+  - 'user3'
+
+# ultrasound settings
+low_filter:
+  freq_low: 8000
+  sampling_rate: 48000
+  analog: false
+
+high_filter:
+  freq_high: 16000
+  sampling_rate: 48000
+  analog: false
+
+ultrasound_nfft: 8192
+ultrasound_win_length: 8160
+ultrasound_hop_length: 960
+ultrasound_overlap_length: 7200
+
+# noisy collected dataset settings (after uspeech synthesis model training)
+clean_collected_dataset_dir: '/path/to/clean_collected_dataset/'  # clean data is the audios passed LPF
+noisy_collected_dataset_dir: '/path/to/noisy_collected_dataset/' 
+noise_source_dir: '/path/to/noise_source/'  # noise source for noisy collected dataset (all *.wav under this dir)
+synthesis_model: '/path/to/the/best/synthesis/checkpoint.pth'
+
+############### general model settings ###############
+
+# training settings (you can change the settings by adjusting the following parameters)
+gpus: '0,1'
+num_gpus: 2
+pretrained: True
+learning_rate: 8.0e-4
+optimizer: 'AdamW' # AdamW or Adam
+warmup_steps: 600
+total_steps: 60000
+batch_size: 256
+num_workers: 64
+visualization_strides: 200  # visualize the training process every 200 steps
+min_lr: 1.0e-6
+weight_decay: 1.0e-3
+
+
+############### synthesis model ###############
+
+# pretrained model and saved model path settings
+slowonly_pretrained: '/path/to/pretrained/slowonly_r50_4x16x1_256e_8xb16_kinetics400-rgb_20220901-f6a40d08.pth'
+pann_pretrained: '/path/to/pretrained/Cnn14_16k_mAP=0.438.pth'
+av_previous_ckpt: null
+av_saved_prefix: '/path/to/save/checkpoints/av_model/'
+
+# tensorboard settings
+av_tb_dir: '/path/to/tensorboard/av_model/'
+
+############### enhancement model ###############
+
+# saved model path settings
+ua_previous_ckpt: null
+ua_saved_prefix: '/path/to/save/checkpoints/ua_model/'
+
+# tensorboard settings
+ua_tb_dir: '/path/to/tensorboard/ua_model/'
