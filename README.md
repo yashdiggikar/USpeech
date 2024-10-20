@@ -10,7 +10,7 @@ Official implementation of USpeech: Ultrasound-Enhanced Speech with Minimal Huma
 <p align="center"> <img src='fig/overall.png' align="center"> </p>
 
 > **USpeech: Ultrasound-Enhanced Speech with Minimal Human Effort via Cross-Modal Synthesis**               
-> Luca Jiang-Tao Yu*, Running Zhao*, Sijie Ji, Edith C.H. Ngai, Chenshu Wu
+
 > *arXiv* (Coming soon...)
 > *Project page ([https://aiot-lab.github.io/USpeech/](https://aiot-lab.github.io/USpeech/))*
 > 
