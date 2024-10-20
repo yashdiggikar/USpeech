@@ -11,9 +11,6 @@ Official implementation of USpeech: Ultrasound-Enhanced Speech with Minimal Huma
 
 > **USpeech: Ultrasound-Enhanced Speech with Minimal Human Effort via Cross-Modal Synthesis**               
 
-> *arXiv* (Coming soon...)
-> *Project page ([https://aiot-lab.github.io/USpeech/](https://aiot-lab.github.io/USpeech/))*
-> 
 ---
 ## Setup Instructions
 To get started with USpeech, follow these steps:
