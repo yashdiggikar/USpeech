@@ -1,2 +1,0 @@
-# USpeech
-USpeech code base
