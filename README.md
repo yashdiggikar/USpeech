@@ -26,8 +26,7 @@ $ pip install -e .
 ```
 2. Configure dataset paths, preprocessing parameters, and training settings in the ```config.yaml``` file.
 
-3. Function description of files.
-Coming soon...
+3. Run the code in synthesis and enhancement models.
 
 ---
 
