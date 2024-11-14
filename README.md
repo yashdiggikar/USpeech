@@ -86,7 +86,14 @@ $ pip install -e .
 ---
 
 ## Citation
-Coming soon...
+```
+@article{yu2024uspeech,
+  title={USpeech: Ultrasound-Enhanced Speech with Minimal Human Effort via Cross-Modal Synthesis},
+  author={Yu, Luca Jiang-Tao and Zhao, Running and Ji, Sijie and Ngai, Edith CH and Wu, Chenshu},
+  journal={arXiv preprint arXiv:2410.22076},
+  year={2024}
+}
+```
 
 ## License
 This project is licensed under the GNU General Public License v3.0 - see the [LICENSE](LICENSE) file for details.
