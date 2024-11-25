@@ -1,6 +1,0 @@
-.dist
-.DS_Store
-*.pth
-*.pkl
-*.npz
-*.h5
