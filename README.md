@@ -4,7 +4,7 @@
 
 ### **Gaurav Sharma**  
 #### **Preprocessing**
-- Implemented and managed the data preprocessing scripts to prepare datasets for training and testing.
+- Implemented the data preprocessing scripts to prepare datasets for training and testing.
 - Key Scripts:
   - `LRW_dataset_preprocessing.py`: Handles preprocessing of the Lip Reading in the Wild (LRW) dataset, including video and audio synchronization and cleaning.
   - `collected_dataset_preprocessing.py`: Processes collected datasets, ensuring format uniformity and preparing inputs for further stages.
@@ -12,9 +12,9 @@
 
 ### **Yash Diggikar**  
 #### **USpeech Enhancement Model**
-- Developed and trained the speech enhancement model, focusing on improving audio quality in ultrasound-based speech enhancement.
+- Developed the speech enhancement model, focusing on improving audio quality in ultrasound-based speech enhancement.
 - Key Scripts:
-  - `model.py`: Defines the deep learning architecture used for speech enhancement, leveraging techniques like UNet.
+  - `model.py`: Deep learning architecture used for speech enhancement, using techniques like UNet.
   - `loss.py`: Implements custom loss functions to optimize the enhancement model's performance.
   - `train.py`: Manages the training pipeline, including data loading, optimization, and validation.
   - `modules/UNet.py`: Contains the UNet model definition for speech enhancement tasks.
