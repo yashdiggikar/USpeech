@@ -20,7 +20,7 @@
   - `modules/UNet.py`: Contains the UNet model definition for speech enhancement tasks.
   - `modules/bottleneck_transformer.py`: Integrates transformer modules for feature bottleneck enhancement.
 
-#### **Speech Synthesis Model** *(Initial Work Started)*  
+#### **Speech Synthesis Model** *(Both working simultaneously)*  
 - Began foundational work on the speech synthesis model for ultrasound-based speech generation.
 - Key Scripts:
   - `uspeech_synthesis_model/modules/ultrasoundAudioModel.py`: Initial design for integrating ultrasound input with audio synthesis.
