@@ -26,9 +26,3 @@
   - `uspeech_synthesis_model/modules/ultrasoundAudioModel.py`: Initial design for integrating ultrasound input with audio synthesis.
   - `uspeech_synthesis_model/pretrain_dataset.py`: Script for handling pretraining datasets for synthesis tasks.
 
----
-
-This document outlines the contributions of team members and provides an overview of the technical work completed for the USpeech project. Updates will be added as progress continues.
-
-
-
